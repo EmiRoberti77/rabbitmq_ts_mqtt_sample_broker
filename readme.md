@@ -50,3 +50,9 @@ confirm RabbitMQ is listening
 netstat -an | grep 5672
 netstat -an | grep 1883
 ```
+
+List queues
+
+```
+rabbitmqctl list_queues
+```
